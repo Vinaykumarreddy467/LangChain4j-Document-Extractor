@@ -1,0 +1,124 @@
+🗓️ Saturday (Today) — Java Core + Coding Problems
+9:00 AM – 11:00 AM | Core Java
+OOP 4 pillars — definition + one real example each
+final vs finally vs finalize
+throw vs throws
+static keyword — variable, method, block
+JVM vs JRE vs JDK — one liner each
+Abstract class vs Interface — key differences
+Access modifiers table (private/default/protected/public)
+11:00 AM – 11:15 AM | Break ☕
+11:15 AM – 1:00 PM | Java 8 (High Priority 🔥)
+Lambda — syntax + Runnable/Comparator examples
+Streams — filter, map, reduce, collect, sorted, distinct, count
+Optional — of, ofNullable, orElse, isPresent, ifPresent
+Functional Interfaces — Predicate, Function, Consumer, Supplier
+Default methods in interface — why introduced in Java 8
+1:00 PM – 2:00 PM | Lunch 🍽️
+2:00 PM – 3:30 PM | Collections Deep Dive
+HashMap internals — hashCode → bucket → equals → linked list → tree at 8 entries
+Load factor 0.75 + rehashing
+HashMap vs LinkedHashMap vs TreeMap vs ConcurrentHashMap
+ArrayList vs LinkedList — when to use which
+Fail-fast vs Fail-safe — examples
+Comparable vs Comparator — write both
+3:30 PM – 3:45 PM | Break ☕
+3:45 PM – 5:00 PM | Multithreading (Medium Priority)
+Thread lifecycle states
+start() vs run() — trap question
+synchronized vs volatile
+wait() / notify() — used inside synchronized block
+Deadlock — definition + how to avoid
+Thread pool — ExecutorService, newFixedThreadPool
+5:00 PM – 6:30 PM | Rest / Walk 🚶
+6:30 PM – 8:00 PM | Star Patterns + String Problems
+Star Patterns (45 min) — write all from memory:
+Right triangle
+Inverted triangle
+Pyramid (centre-aligned)
+Diamond
+Number triangle
+Floyd's triangle
+Hollow square
+String Problems (45 min) — code each one:
+Reverse a string
+Check palindrome
+Count vowels/consonants
+Anagram check
+First non-repeating character
+Count occurrences of each character
+8:00 PM – 9:00 PM | Array Problems
+Find duplicates in array
+Second largest element
+Rotate array by k positions
+Two sum (find pair with given sum)
+Remove duplicates from array
+9:00 PM – 10:00 PM | Revision + Sleep
+🗓️ Sunday — SQL + Spring Boot + Assignment
+8:00 AM – 9:30 AM | SQL
+All JOINs — write each with example
+GROUP BY + HAVING vs WHERE
+Must-know queries:
+2nd highest salary
+Find duplicates
+Department-wise average salary
+Employees with no department
+Top 3 salaries
+Indexes — when to use, composite index
+ACID — one real example each
+Normalization — 1NF, 2NF, 3NF briefly
+9:30 AM – 10:30 AM | Spring Boot Theory
+@SpringBootApplication = 3 annotations
+All key annotations and when to use each
+Bean scopes — Singleton vs Prototype
+@Transactional — what it does, rollback on RuntimeException
+application.properties — must know properties
+Spring Security filter chain (conceptual — you built this in ShopEase)
+JWT flow — articulate it clearly from ShopEase
+10:30 AM – 10:45 AM | Break ☕
+10:45 AM – 1:00 PM | Spring Boot Assignment Drill 🔥
+Build Employee CRUD from memory — timed (90 mins max):
+Entity → Repository → Service 
+→ ServiceImpl → Controller 
+→ Exception Handler → Validation
+Must include:
+@Valid + @NotBlank, @Email, @Min
+Custom EmployeeNotFoundException
+@ControllerAdvice + @ExceptionHandler
+ResponseEntity with correct HTTP status
+application.properties config
+1:00 PM – 2:00 PM | Lunch 🍽️
+2:00 PM – 4:00 PM | Spring Data JPA
+Derived query methods — naming rules
+@Query — JPQL vs native
+FetchType.LAZY vs EAGER
+N+1 problem — what it is, fix with JOIN FETCH
+Pagination — Pageable, PageRequest.of(page, size, Sort.by(...))
+@OneToMany, @ManyToOne, @JoinColumn
+4:00 PM – 5:30 PM | Self Mock Interview
+Answer out loud — treat it like a real interviewer:
+Java: HashMap internals? == vs .equals()? What happens if start() called twice?
+Collections: ArrayList vs LinkedList? When ConcurrentHashMap?
+SQL: Write 2nd highest salary query. Find duplicates. Dept-wise avg salary.
+Spring Boot: How @Transactional works? Global exception handling? Difference between @Controller and @RestController?
+Coding: Write pyramid pattern. Reverse string without library. Find second largest in array.
+5:30 PM – 7:00 PM | Rest 🚶
+7:00 PM – 9:00 PM | Second Assignment Run
+Different domain — Product/Order CRUD or Library Management. Build from memory again. Focus on speed this time — aim for under 60 minutes.
+9:00 PM – 10:00 PM | Final cheat sheet scan + Sleep 😴
+🗓️ Monday Morning — Final Polish
+7:00 AM – 7:30 AM | Freshen up + breakfast
+7:30 AM – 9:00 AM | Speed Revision
+Core Java — 5 likely questions + answers
+Collections — HashMap internals
+SQL — 3 queries mentally
+Spring Boot — annotation list + 6-step assignment flow
+Star pattern — pyramid in your head
+9:00 AM onwards | Stop studying ✋
+Go in calm and confident. You have ShopEase — 30+ REST endpoints, JWT, Razorpay, Spring Security RBAC — that's a production-level system most 1-year candidates don't have.
+🎯 Priority if Time Gets Tight
+Spring Boot assignment drill ← most important
+Java 8 Streams + Lambda
+SQL queries (hands-on)
+HashMap internals
+Star patterns + String problems
