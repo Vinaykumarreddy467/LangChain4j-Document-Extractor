@@ -116,10 +116,10 @@ String answer = model.generate("Summarise this document:\n\n" + result.getExtrac
 ```
 
 ---
+Note: another feature has been implemented in this project that is it saves the extracted text in the output folder in the project main folder.
 
 ## LangChain4j Version
 `0.36.2` — stable release with full Apache PDFBox + POI parser support.
 =======
 # LangChain4j-Document-Extractor
->>>>>>> 2c3f1493c55602e8390d83d9c00cfdf0bda4ced7
 # LangChain4j-Document-Extractor
